@@ -21,10 +21,11 @@ const Header: React.FC = () => {
                 </div>
                 <div className="hidden md:flex space-x-8 text-sm">
                     <a href="#inicio" className="transition">Inicio</a>
-                    <a href="#herramientas" className="transition">Herramientas</a>
-                    <a href="#sistema" className="transition">Sistema</a>
+                    <a href="#proceso" className="transition">El Proceso</a>
+                    <a href="#oferta" className="transition">Lo que Obtienes</a>
                     <a href="#testimonios" className="transition">Testimonios</a>
-                    <a href="#precios" className="transition">Precios</a>
+                    <a href="#equipo" className="transition">Equipo</a>
+                    <a href="#precios" className="transition">Comenzar</a>
                 </div>
                 <button className="gradient-bg px-6 py-2 rounded-full text-sm font-semibold hover:opacity-90 transition">
                     Comenzar Ahora

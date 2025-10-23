@@ -3,52 +3,69 @@ import React from 'react';
 
 const Features: React.FC = () => {
     return (
-        <section className="py-32 px-6 relative">
+        <section id="desafios" className="py-32 px-6 bg-light">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-20 section-reveal">
+                <div className="text-center mb-16 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Construido para los <span className="gradient-text">rebeldes de la realidad</span>
+                        Evitando la <span className="gradient-text">Turbulencia</span>
                     </h2>
-                    <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                        Tres pilares fundamentales que transformarán tu forma de hacer negocios
+                    <p className="text-xl max-w-3xl mx-auto">
+                        Sabemos lo emocionante que suena la IA, pero seamos honestos, aprovecharla puede sentirse como una tarea imposible.
                     </p>
                 </div>
                 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-3 gap-8 mb-24">
                     <div className="glass p-8 rounded-3xl hover-lift section-reveal">
-                        <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6">
-                            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                            </svg>
-                        </div>
-                        <h3 className="text-2xl font-bold mb-4">Fácil de Implementar</h3>
-                        <p className="text-gray-400">
-                            No necesitas ser un experto en tecnología. Nuestro sistema está diseñado para que cualquiera pueda implementar IA en solo 24 horas.
-                        </p>
+                        <h3 className="text-2xl font-bold mb-4">No eres "Técnico"</h3>
+                        <p>La IA se siente complicada y confusa, con muchos términos técnicos. Necesitas un experto que simplifique la IA para que puedas entenderla rápidamente.</p>
                     </div>
                     
                     <div className="glass p-8 rounded-3xl hover-lift section-reveal" style={{ transitionDelay: '0.2s' }}>
-                        <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6">
-                            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
-                        </div>
-                        <h3 className="text-2xl font-bold mb-4">IA de Última Generación</h3>
-                        <p className="text-gray-400">
-                            Accede a las herramientas de IA más avanzadas del mercado, todas integradas en una sola plataforma fácil de usar.
-                        </p>
+                        <h3 className="text-2xl font-bold mb-4">Estás Demasiado Ocupado</h3>
+                        <p>Tus días ya están llenos. Necesitas que alguien haga que sea fácil implementar IA en horas en lugar de días o semanas.</p>
                     </div>
                     
                     <div className="glass p-8 rounded-3xl hover-lift section-reveal" style={{ transitionDelay: '0.4s' }}>
-                        <div className="w-16 h-16 gradient-bg rounded-2xl flex items-center justify-center mb-6">
-                            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
+                        <h3 className="text-2xl font-bold mb-4">Demasiadas Herramientas</h3>
+                        <p>Hay demasiadas herramientas de IA ahí fuera. Necesitas ayuda para saber cuáles realmente valen la pena usar sin perder tiempo investigando.</p>
+                    </div>
+                </div>
+
+                <div className="text-center section-reveal">
+                    <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                        Nuestra Solución: <span className="gradient-text">El Flujo Simple</span>
+                    </h2>
+                    <p className="text-xl max-w-3xl mx-auto mb-12">
+                        Entendemos estos desafíos. Y estamos aquí para hacer la IA rápida y fácil.
+                    </p>
+                    <div className="max-w-4xl mx-auto text-left space-y-6">
+                        <div className="glass p-6 rounded-2xl flex items-center gap-6">
+                            <div className="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                                <span className="text-3xl">🚀</span>
+                            </div>
+                            <div>
+                                <h4 className="font-bold text-xl mb-1">Estrategia Lista para Usar</h4>
+                                <p>Te proporcionamos una estrategia probada y negocio listo para usar que está listo para que generes prospectos y cierres más clientes, en lenguaje simple.</p>
+                            </div>
                         </div>
-                        <h3 className="text-2xl font-bold mb-4">Rentabilidad Garantizada</h3>
-                        <p className="text-gray-400">
-                            Múltiples flujos de ingresos: desde $500 hasta $15,000 por cliente, más comisiones recurrentes del 30%.
-                        </p>
+                        <div className="glass p-6 rounded-2xl flex items-center gap-6">
+                             <div className="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                                <span className="text-3xl">⚡</span>
+                            </div>
+                            <div>
+                                <h4 className="font-bold text-xl mb-1">Rápido y Eficiente</h4>
+                                <p>El proceso del Sistema de Escala 90/10 está diseñado para ponerte en marcha en horas, no días o semanas. Nosotros manejamos el trabajo pesado.</p>
+                            </div>
+                        </div>
+                         <div className="glass p-6 rounded-2xl flex items-center gap-6">
+                             <div className="w-16 h-16 gradient-bg rounded-xl flex items-center justify-center flex-shrink-0">
+                                <span className="text-3xl">🎯</span>
+                            </div>
+                            <div>
+                                <h4 className="font-bold text-xl mb-1">Todo en un Solo Lugar</h4>
+                                <p>No más confusión. Te proporcionamos tu negocio prediseñado y herramientas de IA en un solo lugar. Simplemente conecta y reproduce.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

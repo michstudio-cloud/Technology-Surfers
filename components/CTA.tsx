@@ -10,8 +10,8 @@ const CTA: React.FC = () => {
             
             <div className="max-w-4xl mx-auto relative z-10 text-center section-reveal">
                 <h2 className="text-4xl md:text-6xl font-bold mb-8">
-                    Conecta con el futuro,<br/>
-                    <span className="gradient-text">en cualquier lugar</span>
+                    ¡COMIENZA A SURFEAR LA OLA<br/>
+                    <span className="gradient-text">90/10 DE IA HOY!</span>
                 </h2>
                 <p className="text-xl text-gray-400 mb-12">
                     Únete a más de 1 millón de Technology Surfers que ya están dominando la ola tecnológica

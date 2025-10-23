@@ -1,29 +1,53 @@
 
 import React from 'react';
 
+const withUs = [
+    "Aprender cómo aprovechar y monetizar las últimas herramientas de IA.",
+    "Vender IA más rápido mientras ahorras más tiempo.",
+    "Mantenerte actualizado con las últimas tendencias en IA.",
+    "Volverte 10x más productivo y eficiente."
+];
+
+const withoutUs = [
+    "Hacer todo de la misma manera antigua.",
+    "Dejar que otros se beneficien de la IA mientras tú te lo pierdes.",
+    "Perder tiempo en tareas manuales y repetitivas.",
+    "Ver cómo tus competidores se adelantan."
+];
+
+const whyJoinWithUs = [
+    "Ser parte del 1% superior de empresas que usan IA.",
+    "Descubrir la forma rápida y fácil de escalar con IA.",
+    "Disparar tus ganancias mientras ahorras más tiempo.",
+    "Mantenerte adelante de tu competencia aplicando IA antes que ellos.",
+    "Obtener acceso exclusivo a los principales propietarios de empresas de IA.",
+    "Conectar con otros dueños de negocios que son parte de la familia 90/10."
+];
+
+const whyJoinWithoutUs = [
+    "Permanecer en el mismo lugar en el que estás actualmente.",
+    "Intentar navegar la IA por tu cuenta, abrumado y perdido.",
+    "Perderte conexiones clave con los principales líderes de IA.",
+    "Hacer las cosas de la misma manera antigua.",
+    "Ver cómo tus competidores usan IA más rápido que tú.",
+    "Perderte una ola de oportunidad única en la vida."
+];
+
 const Advantages: React.FC = () => {
     return (
-        <section id="sistema" className="py-32 px-6">
+        <section id="comparativa" className="py-32 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Tu red es tu <span className="gradient-text">riqueza</span>
+                        Montando la Ola o <span className="gradient-text">Viéndola Pasar</span>
                     </h2>
-                    <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-                        Rodéate de los expertos líderes en IA del mundo
-                    </p>
                 </div>
                 
-                <div className="grid md:grid-cols-2 gap-12 mb-16">
+                <div className="grid md:grid-cols-2 gap-12 mb-24">
                     <div className="glass p-10 rounded-3xl section-reveal">
-                        <h3 className="text-3xl font-bold mb-6 gradient-text">CON TECHNOLOGY SURFERS:</h3>
+                        <h3 className="text-3xl font-bold mb-6 gradient-text">CON NOSOTROS:</h3>
                         <ul className="space-y-4 text-gray-300">
-                            {[
-                                "Aprender y monetizar las últimas herramientas de IA",
-                                "Vender IA más rápido ahorrando tiempo",
-                                "Mantenerte actualizado con tendencias en IA",
-                                "Volverte 10x más productivo y eficiente"
-                            ].map((item, index) => (
+                            {withUs.map((item, index) => (
                                 <li key={index} className="flex items-start">
                                     <svg className="w-6 h-6 mr-3 mt-1 flex-shrink-0" style={{ color: '#F16131' }} fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
@@ -37,12 +61,7 @@ const Advantages: React.FC = () => {
                     <div className="glass p-10 rounded-3xl section-reveal" style={{ transitionDelay: '0.2s' }}>
                         <h3 className="text-3xl font-bold mb-6 text-gray-400">SIN NOSOTROS:</h3>
                         <ul className="space-y-4 text-gray-400">
-                           {[
-                                "Hacer todo de la misma manera antigua",
-                                "Dejar que otros se beneficien de la IA",
-                                "Perder tiempo en tareas manuales",
-                                "Ver cómo tus competidores se adelantan"
-                           ].map((item, index) => (
+                           {withoutUs.map((item, index) => (
                                <li key={index} className="flex items-start">
                                     <svg className="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-red-500" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"/>
@@ -53,14 +72,41 @@ const Advantages: React.FC = () => {
                         </ul>
                     </div>
                 </div>
-                
-                <div className="text-center glass p-12 rounded-3xl section-reveal">
-                    <h3 className="text-2xl md:text-4xl font-bold mb-6">
-                        <span className="gradient-text">NO DEJES QUE TUS COMPETIDORES SE ADELANTEN</span>
-                    </h3>
-                    <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-                        La IA no es ningún secreto. Todos saben sobre ella. Lo único que impide a tus competidores usarla es su falta de experiencia. Aprovecha esto ahora.
-                    </p>
+
+                <div className="text-center mb-20 section-reveal">
+                    <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                        ¿Por Qué Unirte? <br/>El Compromiso con tu <span className="gradient-text">Flujo</span>
+                    </h2>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-12">
+                    <div className="glass p-10 rounded-3xl section-reveal">
+                        <h3 className="text-3xl font-bold mb-6 gradient-text">LIBERTAD Y FLUJO:</h3>
+                        <ul className="space-y-4 text-gray-300">
+                            {whyJoinWithUs.map((item, index) => (
+                                <li key={index} className="flex items-start">
+                                    <svg className="w-6 h-6 mr-3 mt-1 flex-shrink-0" style={{ color: '#F16131' }} fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+                                    </svg>
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    
+                    <div className="glass p-10 rounded-3xl section-reveal" style={{ transitionDelay: '0.2s' }}>
+                        <h3 className="text-3xl font-bold mb-6 text-gray-400">ESTANCAMIENTO:</h3>
+                        <ul className="space-y-4 text-gray-400">
+                           {whyJoinWithoutUs.map((item, index) => (
+                               <li key={index} className="flex items-start">
+                                    <svg className="w-6 h-6 mr-3 mt-1 flex-shrink-0 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"/>
+                                    </svg>
+                                   {item}
+                               </li>
+                           ))}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

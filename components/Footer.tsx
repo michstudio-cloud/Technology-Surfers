@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h4 className="font-bold mb-4">PRODUCTO</h4>
                         <ul className="space-y-2 text-gray-400 text-sm">
-                            <li><a href="#herramientas" className="transition">Herramientas IA</a></li>
+                            <li><a href="#oferta" className="transition">Herramientas IA</a></li>
                             <li><a href="#sistema" className="transition">Sistema 90/10</a></li>
                             <li><a href="#precios" className="transition">Precios</a></li>
                             <li><a href="#" className="transition">Convertwave</a></li>
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                         <h4 className="font-bold mb-4">EMPRESA</h4>
                         <ul className="space-y-2 text-gray-400 text-sm">
                             <li><a href="#" className="transition">Sobre Nosotros</a></li>
-                            <li><a href="#" className="transition">Equipo</a></li>
+                            <li><a href="#equipo" className="transition">Equipo</a></li>
                             <li><a href="#" className="transition">Carreras</a></li>
                             <li><a href="#" className="transition">Contacto</a></li>
                             <li><a href="#" className="transition">Afiliados</a></li>
@@ -81,7 +81,10 @@ const Footer: React.FC = () => {
                 
                 <div className="mt-8 text-center">
                     <p className="text-xs text-gray-500 max-w-4xl mx-auto">
-                        <strong>DESCARGO DE RESPONSABILIDAD:</strong> Los resultados mostrados no son típicos. No garantizamos que duplicarás estos resultados. El éxito depende de tu esfuerzo, dedicación y múltiples factores. Todo negocio implica riesgo y requiere trabajo constante.
+                         <strong>AVISO LEGAL:</strong> Este sitio no es parte del sitio web de Facebook™ o Facebook™ Inc. Además, este sitio NO está respaldado por Facebook™ de ninguna manera. FACEBOOK™ es una marca registrada de FACEBOOK™, Inc.
+                    </p>
+                    <p className="text-xs text-gray-500 max-w-4xl mx-auto mt-2">
+                        <strong>DESCARGO DE RESPONSABILIDAD:</strong> Las cifras de ventas indicadas son nuestras cifras personales y de clientes. Por favor, comprende que estos resultados no son típicos. No estamos implicando que los duplicarás. El éxito depende de muchos factores, incluyendo tu experiencia, antecedentes y ética de trabajo. Todo negocio conlleva riesgo y requiere esfuerzo y acción masivos y consistentes. Si no estás dispuesto a aceptar eso, por favor NO COMPRES DE THE AI SURFER.
                     </p>
                 </div>
             </div>

@@ -10,6 +10,11 @@ import Stats from './components/Stats';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import Process from './components/Process';
+import HowItWorks from './components/HowItWorks';
+import Opportunities from './components/Opportunities';
+import Team from './components/Team';
+import Community from './components/Community';
 
 const App: React.FC = () => {
     useEffect(() => {
@@ -36,11 +41,16 @@ const App: React.FC = () => {
             <Header />
             <main>
                 <Hero />
+                <Stats />
                 <Features />
+                <Process />
                 <WhatYouGet />
+                <HowItWorks />
+                <Opportunities />
                 <Advantages />
                 <Testimonials />
-                <Stats />
+                <Team />
+                <Community />
                 <FAQ />
                 <CTA />
             </main>

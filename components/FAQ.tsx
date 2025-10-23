@@ -22,20 +22,28 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, delay }) => (
 const FAQ: React.FC = () => {
     const faqs = [
         {
-            question: "¿Necesito ser un experto en tecnología?",
-            answer: "¡Para nada! Nuestro sistema está diseñado específicamente para personas sin conocimientos técnicos. Si puedes enviar un email, puedes usar nuestras herramientas. Además, incluimos una sesión 1-on-1 de onboarding."
+            question: "¿Necesito ser bueno con la tecnología para usar esto?",
+            answer: "¡No! Este programa está hecho para personas que no son buenas con la tecnología. Si sabes enviar un email, podrás aplicar todo. ¡Incluso hacemos una videollamada individual de una hora contigo para asegurarnos de que quedes completamente configurado!"
         },
         {
-            question: "¿Qué pasa si estoy muy ocupado?",
-            answer: "Entendemos que estás ocupado, por eso grabamos todas las clases en vivo. Puedes acceder al contenido cuando quieras desde nuestro portal privado. La implementación toma solo horas, no semanas."
+            question: "¿Qué pasa si estoy demasiado ocupado para las clases en vivo?",
+            answer: "Entendemos. Por eso grabamos todas nuestras lecciones en vivo y las almacenamos en nuestra bóveda privada. Si no puedes asistir, solo tienes que iniciar sesión en tu portal y ver la capacitación cuando quieras."
+        },
+        {
+            question: "¿Viene con software o tengo que comprarlo por separado?",
+            answer: "¡Sí, viene incluido! Tu membresía incluye nuestro software de gestión empresarial Convertwave y nuestro software de IA de redes sociales virales Remixer. Es tu CRM, constructor de embudos, gestor de conversaciones y mucho más."
+        },
+        {
+            question: "¿Puedo agregar mi equipo a la comunidad?",
+            answer: "¡Lo recomendamos! Tenemos muchas empresas que quieren que su equipo se mantenga al día con la IA. Puedes usar tu enlace de referencia para que se registren, cubrir el costo y ganar tu comisión mensual por referirlos."
         },
         {
             question: "¿Funciona para mi tipo de negocio?",
-            answer: "Sí. Todo lo que enseñamos es aplicable a cualquier industria. Ya sea que tengas un negocio establecido o estés comenzando, nuestro sistema de IA se adapta a tus necesidades específicas."
+            answer: "Sí. Todo lo que aprenderás es aplicable a cada negocio que existe. Aprenderás herramientas y habilidades para hacer crecer tu negocio usando los sistemas de IA más efectivos mientras trabajas menos."
         },
         {
-            question: "¿Cuánto cuesta y puedo cancelar?",
-            answer: "$194/mes con pago mensual o $166/mes con pago anual (ahorras 15%). Incluye software Convertwave y Remixer. Puedes cancelar en cualquier momento sin compromiso de permanencia."
+            question: "¿Cuánto cuesta y cómo puedo pagar?",
+            answer: "El precio es de $194/Mes (pago mensual) o $166/Mes (pago anual, ahorras 15%). Puedes usar cualquier tarjeta de crédito o débito. Puedes cancelar tu membresía en cualquier momento."
         }
     ];
 
@@ -43,7 +51,7 @@ const FAQ: React.FC = () => {
         <section className="py-32 px-6">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl md:text-6xl font-bold text-center mb-20 section-reveal">
-                    Tenemos las <span className="gradient-text">respuestas</span>
+                    Preguntas <span className="gradient-text">Frecuentes</span>
                 </h2>
                 
                 <div className="space-y-6">

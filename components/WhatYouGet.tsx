@@ -1,66 +1,90 @@
 
 import React from 'react';
 
+const tools = [
+    "Clasificador de Contenido Viral con IA", "Transcriptor de Video con IA", "Remezclador de Guiones con IA",
+    "Aplicaciones de Tareas con IA", "Organizador de Prospectos con IA", "Calificador de Prospectos con IA",
+    "IA de Voz", "Bots de IA para DM de Redes Sociales", "Bots de IA para SMS/Email",
+    "Constructor Automático de Embudos con IA", "Generador de Imágenes Web con IA", "Redactor Publicitario con IA",
+    "Respondedor de Reseñas con IA", "Clasificador de Reseñas con IA", "Gestión de Reseñas con IA",
+    "Agentes Ilimitados", "Gestión de Tareas", "Operaciones con IA"
+];
+
+const membershipIncludes = [
+    { title: "PORTAL DE CAPACITACIÓN", description: "Ingresa a nuestro portal con currículos de capacitación y repeticiones de clases en vivo." },
+    { title: "COMUNIDAD PRIVADA EN LÍNEA", description: "Surfea la ola de la IA con una comunidad de apoyo que te inspirará y motivará." },
+    { title: "CLASES EN VIVO", description: "Experimenta nuestras clases en vivo semanales con los principales expertos en IA del mundo." },
+    { title: "SOFTWARE CONVERTWAVE Y REMIXER", description: "Tu membresía incluye nuestro software todo en uno para gestionar tu negocio con IA." }
+];
+
+const valuePackage = [
+    { item: "Currículo de Capacitación y Herramientas de IA", value: "$197/Mes" },
+    { item: "Sistema de Ganancias con IA (Negocio Listo)", value: "$5,000" },
+    { item: "Software Convertwave", value: "$97/Mes" },
+    { item: "Software Remixer", value: "$97/Mes" },
+    { item: "Comunidad Privada de Capacitación", value: "$297/Mes" },
+    { item: "3+ Clases de Capacitación en Vivo Semanales", value: "$497/Mes" },
+    { item: "Llamada Individual de Incorporación", value: "$97" },
+    { item: "Plantillas de Propuestas y Ventas", value: "$394" },
+    { item: "Programa de Sistemas Avanzados de IA", value: "$997" },
+];
+
 const WhatYouGet: React.FC = () => {
     return (
-        <section id="herramientas" className="py-32 px-6" style={{ background: 'linear-gradient(to bottom, #000000, rgba(241, 97, 49, 0.1), #000000)' }}>
+        <section id="oferta" className="py-32 px-6 bg-light">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-4xl md:text-6xl font-bold text-center mb-20 section-reveal">
-                    RESUMEN DE LO QUE OBTIENES<br/>
-                    <span className="gradient-text">AL COMENZAR HOY</span>
-                </h2>
-                
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                    <div className="glass rounded-3xl overflow-hidden hover-lift section-reveal">
-                        <div className="h-64 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, rgba(241, 97, 49, 0.3), rgba(255, 140, 66, 0.3))' }}>
-                            <svg className="w-32 h-32" style={{ color: '#F16131' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/>
-                            </svg>
-                        </div>
-                        <div className="p-8">
-                            <h3 className="text-2xl font-bold mb-4">Apps de IA Virales</h3>
-                            <p className="text-gray-400">Crea contenido viral automáticamente con nuestras herramientas de IA. Clasifica, transcribe y remezcla contenido en segundos.</p>
-                        </div>
-                    </div>
-                    
-                    <div className="glass rounded-3xl overflow-hidden hover-lift section-reveal" style={{ transitionDelay: '0.2s' }}>
-                        <div className="h-64 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, rgba(255, 140, 66, 0.3), rgba(241, 97, 49, 0.3))' }}>
-                            <svg className="w-32 h-32" style={{ color: '#FF8C42' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-                            </svg>
-                        </div>
-                        <div className="p-8">
-                            <h3 className="text-2xl font-bold mb-4">Gestión de Prospectos con IA</h3>
-                            <p className="text-gray-400">Organiza, califica y convierte prospectos automáticamente con bots de IA para DM, SMS y email.</p>
-                        </div>
-                    </div>
+                <div className="text-center mb-20 section-reveal">
+                    <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                        Tu Pasaporte a la <span className="gradient-text">Tribu del Flujo</span>
+                    </h2>
+                    <p className="text-xl max-w-3xl mx-auto">
+                        Todo lo que necesitas para tu viaje, en un solo lugar.
+                    </p>
                 </div>
                 
-                <div className="grid md:grid-cols-3 gap-8">
-                    <div className="glass p-8 rounded-3xl hover-lift section-reveal">
-                        <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center mb-4">
-                            <span className="text-2xl">🎯</span>
-                        </div>
-                        <h3 className="text-xl font-bold mb-3">Valor increíble de<br/>$1,585 mensual</h3>
-                        <p className="text-gray-400 text-sm">Acceso completo a todas las herramientas y capacitaciones por una fracción del costo.</p>
-                    </div>
-                    
-                    <div className="glass p-8 rounded-3xl hover-lift section-reveal" style={{ transitionDelay: '0.2s' }}>
-                        <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center mb-4">
-                            <span className="text-2xl">⚡</span>
-                        </div>
-                        <h3 className="text-xl font-bold mb-3">Generación de bonos<br/>e ingresos</h3>
-                        <p className="text-gray-400 text-sm">Programa de afiliados del 30% y múltiples modelos de monetización.</p>
-                    </div>
-                    
-                    <div className="glass p-8 rounded-3xl hover-lift section-reveal" style={{ transitionDelay: '0.4s' }}>
-                        <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center mb-4">
-                            <span className="text-2xl">🚀</span>
-                        </div>
-                        <h3 className="text-xl font-bold mb-3">Implementación<br/>en 24 horas</h3>
-                        <p className="text-gray-400 text-sm">Sistema listo para usar con soporte personalizado 1 a 1.</p>
+                <div className="mb-24 section-reveal">
+                    <h3 className="text-3xl font-bold text-center mb-12">Herramientas de IA Incluidas: Tu Equipo de Alto Rendimiento</h3>
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-4 max-w-5xl mx-auto">
+                        {tools.map((tool, index) => (
+                            <div key={index} className="flex items-center">
+                                <svg className="w-5 h-5 mr-3 flex-shrink-0" style={{ color: '#F16131' }} fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+                                </svg>
+                                <span>{tool}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
+
+                <div className="mb-24">
+                     <h3 className="text-3xl font-bold text-center mb-12 section-reveal">Qué Incluye Tu Membresía: El Kit Completo del Surfer</h3>
+                     <div className="grid md:grid-cols-2 gap-8">
+                        {membershipIncludes.map((item, index) => (
+                            <div key={index} className="glass p-8 rounded-3xl hover-lift section-reveal" style={{transitionDelay: `${index * 0.1}s`}}>
+                                <h4 className="font-bold text-xl mb-3 gradient-text">{item.title}</h4>
+                                <p>{item.description}</p>
+                            </div>
+                        ))}
+                     </div>
+                </div>
+
+                <div>
+                    <h3 className="text-3xl font-bold text-center mb-12 section-reveal">Valor Total del Paquete: Lo que Ganas</h3>
+                    <div className="glass rounded-3xl p-8 md:p-12 max-w-4xl mx-auto section-reveal">
+                        <ul className="grid md:grid-cols-2 gap-x-12 gap-y-4">
+                            {valuePackage.map((item, index) => (
+                                <li key={index} className="flex justify-between border-b border-gray-300 py-3">
+                                    <span className="font-medium">{item.item}</span>
+                                    <span className="font-bold gradient-text">{item.value}</span>
+                                </li>
+                            ))}
+                             <li className="col-span-2 text-center pt-6">
+                                <p className="text-lg">Programa de Afiliados del Acelerador de Ganancias AI Surfer (<span className="font-bold">Ganancias Ilimitadas</span>)</p>
+                             </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
