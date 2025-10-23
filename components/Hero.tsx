@@ -22,20 +22,13 @@ const Hero: React.FC = () => {
                     Construido para los rebeldes de la realidad. Surfea la ola tecnológica y deja que la IA se encargue del 90% que te agota.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition animate-glow">
                         Comienza Tu Prueba Gratuita
                     </button>
                     <button className="glass px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 transition">
                         Ver Demo en Vivo
                     </button>
-                </div>
-
-                <div className="relative mx-auto w-64 h-64 md:w-96 md:h-96 animate-float">
-                    <div className="absolute inset-0 gradient-bg opacity-20 blur-3xl rounded-full"></div>
-                    <div className="relative glass rounded-3xl h-full flex items-center justify-center overflow-hidden">
-                        <img src="https://storage.googleapis.com/agent-tools-dev/images/robot.png" alt="AI Robot" className="w-full h-full object-cover" />
-                    </div>
                 </div>
             </div>
 

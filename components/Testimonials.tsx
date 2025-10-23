@@ -16,7 +16,7 @@ const Testimonials: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                     <div className="glass p-8 rounded-3xl section-reveal">
                         <div className="flex items-start mb-6">
-                            <div className="w-16 h-16 bg-gray-700 rounded-full mr-4 bg-cover" style={{backgroundImage: 'url(https://picsum.photos/id/1005/100/100)'}}></div>
+                            <div className="w-16 h-16 bg-gray-700 rounded-full mr-4 bg-cover bg-center" style={{backgroundImage: 'url(https://ui-avatars.com/api/?name=Carlos+Martinez&background=F16131&color=fff&size=128)'}}></div>
                             <div>
                                 <h4 className="font-bold text-lg">Carlos Martínez</h4>
                                 <p className="text-gray-400 text-sm">Fundador, Tech Accelerator</p>
@@ -32,7 +32,7 @@ const Testimonials: React.FC = () => {
                     
                     <div className="glass p-8 rounded-3xl section-reveal" style={{ transitionDelay: '0.2s' }}>
                         <div className="flex items-start mb-6">
-                            <div className="w-16 h-16 bg-gray-700 rounded-full mr-4 bg-cover" style={{backgroundImage: 'url(https://picsum.photos/id/1027/100/100)'}}></div>
+                            <div className="w-16 h-16 bg-gray-700 rounded-full mr-4 bg-cover bg-center" style={{backgroundImage: 'url(https://ui-avatars.com/api/?name=Maria+Gonzalez&background=FF8C42&color=fff&size=128)'}}></div>
                             <div>
                                 <h4 className="font-bold text-lg">María González</h4>
                                 <p className="text-gray-400 text-sm">CEO, Digital Solutions</p>
