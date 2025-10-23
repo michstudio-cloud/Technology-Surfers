@@ -30,17 +30,6 @@ const Hero: React.FC = () => {
                         Ver Demo en Vivo
                     </button>
                 </div>
-                
-                <div className="relative mx-auto w-64 h-64 md:w-96 md:h-96 animate-float">
-                    <div className="absolute inset-0 gradient-bg opacity-20 blur-3xl rounded-full"></div>
-                    <div className="relative glass rounded-3xl h-full flex items-center justify-center">
-                        <svg className="w-48 h-48" style={{ color: '#F16131' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
                 <div className="w-6 h-10 border-2 rounded-full flex justify-center" style={{ borderColor: '#F16131' }}>
                     <div className="w-1 h-3 rounded-full mt-2" style={{ backgroundColor: '#F16131' }}></div>
