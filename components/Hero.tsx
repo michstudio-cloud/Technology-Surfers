@@ -30,6 +30,15 @@ const Hero: React.FC = () => {
                         Ver Demo en Vivo
                     </button>
                 </div>
+
+                <div className="relative mx-auto w-64 h-64 md:w-96 md:h-96 animate-float">
+                    <div className="absolute inset-0 gradient-bg opacity-20 blur-3xl rounded-full"></div>
+                    <div className="relative glass rounded-3xl h-full flex items-center justify-center overflow-hidden">
+                        <img src="https://storage.googleapis.com/agent-tools-dev/images/robot.png" alt="AI Robot" className="w-full h-full object-cover" />
+                    </div>
+                </div>
+            </div>
+
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
                 <div className="w-6 h-10 border-2 rounded-full flex justify-center" style={{ borderColor: '#F16131' }}>
                     <div className="w-1 h-3 rounded-full mt-2" style={{ backgroundColor: '#F16131' }}></div>
