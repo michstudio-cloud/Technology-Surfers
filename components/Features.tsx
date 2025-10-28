@@ -67,6 +67,11 @@ const Features: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="mt-16">
+                        <a href="#precios" className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition inline-block">
+                            Obtén Tu Sistema de IA
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

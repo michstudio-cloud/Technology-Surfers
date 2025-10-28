@@ -59,6 +59,13 @@ const FAQ: React.FC = () => {
                         <FAQItem key={index} question={faq.question} answer={faq.answer} delay={`${index * 0.1}s`} />
                     ))}
                 </div>
+
+                <div className="mt-20 text-center section-reveal">
+                     <h3 className="text-2xl font-bold mb-6">¿Listo para surfear la ola de la IA?</h3>
+                    <a href="#precios" className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition inline-block">
+                        Comenzar Ahora
+                    </a>
+                </div>
             </div>
         </section>
     );

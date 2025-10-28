@@ -21,6 +21,11 @@ const Community: React.FC = () => {
                         La IA no es ningún secreto. Todos saben sobre ella. Lo único que impide a tus competidores usarla es su falta de experiencia. Aprovecha esto ahora.
                     </p>
                 </div>
+                 <div className="mt-16 text-center section-reveal">
+                    <a href="#precios" className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition inline-block">
+                        Únete a la Tribu del Flujo
+                    </a>
+                </div>
             </div>
         </section>
     );

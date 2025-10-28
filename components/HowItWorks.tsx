@@ -32,6 +32,11 @@ const HowItWorks: React.FC = () => {
                     <p className="text-xl text-gray-300 max-w-4xl mx-auto">
                         Un Modelo Probado y Consistente de Conversión de Prospectos Aprovechando IA. Nunca te preocupes de dónde vendrán los próximos prospectos y experimenta un aumento de ganancias con menos esfuerzo.
                     </p>
+                    <div className="mt-8">
+                        <a href="#precios" className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition inline-block">
+                            Obtén Tu Flujo de Clientes
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

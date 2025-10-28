@@ -108,6 +108,12 @@ const Advantages: React.FC = () => {
                         </ul>
                     </div>
                 </div>
+
+                <div className="mt-20 text-center section-reveal">
+                    <a href="#precios" className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition inline-block animate-glow">
+                        Elige el Flujo. Elige la Libertad.
+                    </a>
+                </div>
             </div>
         </section>
     );
