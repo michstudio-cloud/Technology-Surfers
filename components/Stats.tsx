@@ -5,10 +5,13 @@ const Stats: React.FC = () => {
     return (
         <section className="py-32 px-6" style={{ background: 'linear-gradient(to bottom, rgba(241, 97, 49, 0.1), #000000)' }}>
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-12 section-reveal">
-                     <h2 className="text-4xl md:text-6xl font-bold">
-                        Resultados Comprobados: <span className="gradient-text">Olas Gigantes Cosechadas</span>
+                <div className="text-center mb-16 section-reveal">
+                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
+                        Resultados Comprobados con IA: <span className="gradient-text">Números Que Hacen Olas</span>
                     </h2>
+                    <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+                        Estos no son solo nuestros números. Somos parte de una comunidad de élite que valida y respalda cada uno de estos logros.
+                    </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-8 text-center">
                     <div className="section-reveal">

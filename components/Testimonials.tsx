@@ -10,11 +10,11 @@ const testimonials = [
 
 const Testimonials: React.FC = () => {
     return (
-        <section id="testimonios" className="py-32 px-6 bg-light">
+        <section id="testimonios" className="py-32 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="section-reveal text-center">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Voces de la <span className="gradient-text">Tribu</span>
+                        Lo que Dicen Nuestros Miembros: <span className="gradient-text">Voces de la Tribu</span>
                     </h2>
                     <p className="text-xl mb-12 max-w-2xl mx-auto">¿TE PREGUNTAS SI EL SISTEMA DE GANANCIAS CON IA FUNCIONARÁ PARA TI Y TUS FUTUROS CLIENTES?</p>
                 </div>

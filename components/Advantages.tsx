@@ -39,7 +39,7 @@ const Advantages: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Montando la Ola o <span className="gradient-text">Viéndola Pasar</span>
+                        Tu Negocio con IA vs. Sin IA: <span className="gradient-text">Una Decisión Clara</span>
                     </h2>
                 </div>
                 
@@ -75,7 +75,7 @@ const Advantages: React.FC = () => {
 
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        ¿Por Qué Unirte? <br/>El Compromiso con tu <span className="gradient-text">Flujo</span>
+                        ¿Por Qué Unirte a Nuestra Tribu? <br/>El <span className="gradient-text">Compromiso con tu Flujo</span>
                     </h2>
                 </div>
 

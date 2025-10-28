@@ -13,11 +13,11 @@ const opportunities = [
 
 const Opportunities: React.FC = () => {
     return (
-        <section id="ingresos" className="py-32 px-6 bg-light">
+        <section id="ingresos" className="py-32 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Oportunidades de Ingresos:<br/><span className="gradient-text">Cosecha de Tesoros</span>
+                        Monetiza tu Conocimiento en IA:<br/><span className="gradient-text">Múltiples Fuentes de Ingresos</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto">
                         El océano es vasto y las oportunidades son abundantes. Te mostramos cómo monetizar tu know-how como AI Surfer.

@@ -3,11 +3,11 @@ import React from 'react';
 
 const Features: React.FC = () => {
     return (
-        <section id="desafios" className="py-32 px-6 bg-light">
+        <section id="desafios" className="py-32 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Evitando la <span className="gradient-text">Turbulencia</span>
+                        Los Desafíos de Implementar IA: <span className="gradient-text">Evita la Revolcada</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto">
                         Sabemos lo emocionante que suena la IA, pero seamos honestos, aprovecharla puede sentirse como una tarea imposible.
@@ -33,7 +33,7 @@ const Features: React.FC = () => {
 
                 <div className="text-center section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Nuestra Solución: <span className="gradient-text">El Flujo Simple</span>
+                        Nuestra Solución de IA: <span className="gradient-text">Un Flujo Simple y Potente</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto mb-12">
                         Entendemos estos desafíos. Y estamos aquí para hacer la IA rápida y fácil.

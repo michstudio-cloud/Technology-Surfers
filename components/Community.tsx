@@ -3,11 +3,11 @@ import React from 'react';
 
 const Community: React.FC = () => {
     return (
-        <section id="comunidad" className="py-32 px-6 bg-light">
+        <section id="comunidad" className="py-32 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <div className="section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Tu Red Es Tu <span className="gradient-text">Riqueza</span>
+                        Únete a la Comunidad de IA: <span className="gradient-text">Tu Red es tu Mayor Activo</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto mb-12">
                         ¡Rodéate de los expertos líderes en IA del mundo que están vendiendo IA mientras se mantienen adelante de la competencia y comparten todos sus secretos contigo!

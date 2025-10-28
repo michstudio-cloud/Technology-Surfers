@@ -22,7 +22,7 @@ const Team: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Conoce al Equipo: <br/>Nuestros <span className="gradient-text">Instructores de Surf de IA</span>
+                        Conoce a los Fundadores: <br/>Tus <span className="gradient-text">Guías en el Mundo de la IA</span>
                     </h2>
                 </div>
                 

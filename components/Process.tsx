@@ -15,7 +15,7 @@ const Process: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        El Proceso 90/10: <span className="gradient-text">Surfeando la Ola</span>
+                        El Proceso 90/10: <span className="gradient-text">Tu Camino Hacia la Automatización</span>
                     </h2>
                     <p className="text-xl text-gray-400 max-w-3xl mx-auto">
                         El éxito no es luchar contra la marea, es entender el océano y usar su energía. Te guiamos para que la IA se convierta en tu mejor tabla.

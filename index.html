@@ -8,12 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Tomorrow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        // Prevents flash of incorrect theme
+        if (localStorage.getItem('theme') === 'light') {
+            document.documentElement.classList.add('light');
+        }
+    </script>
     <style>
         body {
             font-family: 'Space Grotesk', sans-serif;
             background-color: #000;
             color: #fff;
             overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         h1, h2, h3, h4 {
@@ -36,6 +43,7 @@
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
         }
         
         .hover-lift {
@@ -99,31 +107,74 @@
         input[type="email"]:focus {
             border-color: #F16131 !important;
         }
-
-        /* Light Theme */
-        .bg-light {
+        
+        /* --- Light Theme Overrides --- */
+        html.light body {
             background-color: #f7f7f7;
             color: #1a202c;
         }
-        .bg-light h1, .bg-light h2, .bg-light h3, .bg-light h4 {
-            color: #111;
+        html.light h1, html.light h2, html.light h3, html.light h4, html.light .font-bold {
+             color: #111;
         }
-        .bg-light p, .bg-light li {
-            color: #4a5568;
+        html.light p, html.light li, html.light summary, html.light blockquote, html.light span:not(.gradient-text):not(.text-3xl) {
+             color: #4a5568;
         }
-        .bg-light .glass {
+        html.light .text-gray-300, html.light .text-gray-400 {
+             color: #718096;
+        }
+        html.light .glass {
             background: rgba(255, 255, 255, 0.7);
             border: 1px solid rgba(0, 0, 0, 0.08);
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
-        .bg-light .hover-lift:hover {
+        html.light .hover-lift:hover {
             box-shadow: 0 20px 40px rgba(241, 97, 49, 0.15);
         }
-        .bg-light .text-gray-300 {
+        html.light nav, html.light footer {
             color: #4a5568;
         }
-        .bg-light .text-gray-400 {
+        html.light nav a, html.light footer a {
+            color: inherit;
+        }
+        html.light nav a:hover, html.light footer a:hover {
+            color: #F16131;
+        }
+        html.light input[type="email"] {
+            background-color: rgba(0,0,0,0.05);
+            border-color: rgba(0,0,0,0.1) !important;
+            color: #1a202c;
+        }
+        html.light input[type="email"]::placeholder {
             color: #718096;
+        }
+        html.light .border-t.border-white\/10 {
+            border-color: rgba(0,0,0,0.1);
+        }
+        html.light .bg-grid {
+             background-image: 
+                linear-gradient(rgba(45, 55, 72, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(45, 55, 72, 0.1) 1px, transparent 1px);
+        }
+        html.light #inicio > .absolute.inset-0 {
+            background: linear-gradient(to bottom, transparent 50%, #f7f7f7 95%);
+        }
+        html.light section[style*="background: linear-gradient"] {
+            background: linear-gradient(to bottom, rgba(241, 97, 49, 0.05), #f7f7f7) !important;
+        }
+        html.light .animate-float .border-4 {
+            border-color: #f7f7f7;
+        }
+        html.light .text-white {
+            color: #1a202c;
+        }
+        html.light footer svg[fill="currentColor"] {
+            color: #4a5568;
+        }
+        html.light .text-shadow {
+            text-shadow: none;
+        }
+        html.light .animate-float div {
+             color: #000;
         }
     </style>
 <script type="importmap">
