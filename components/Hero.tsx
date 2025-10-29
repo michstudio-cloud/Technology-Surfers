@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 text-center">
                 <div className="mb-6 inline-block">
                     <span className="glass px-4 py-2 rounded-full text-sm font-semibold" style={{ color: '#F16131' }}>
-                        La ola de Technology Surfers: El flujo 90/10
+                       El flujo 90/10 por el flow
                     </span>
                 </div>
                 
@@ -27,9 +27,6 @@ const Hero: React.FC = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition animate-glow">
                         Comienza Tu Prueba Gratuita
-                    </button>
-                    <button className="glass px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 transition">
-                        Ver Demo en Vivo
                     </button>
                 </div>
             </div>
