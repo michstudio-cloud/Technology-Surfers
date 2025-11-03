@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 text-center">
                 <div className="mb-6 inline-block">
                     <span className="glass px-4 py-2 rounded-full text-sm font-semibold" style={{ color: '#F16131' }}>
-                       El flujo 90/10 por el flow
+                       flow 90/10
                     </span>
                 </div>
                 
