@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const toolCategories = [
@@ -60,15 +59,15 @@ const membershipIncludes = [
 ];
 
 const valuePackage = [
-    { item: "Currículo de Capacitación y Herramientas de IA", value: "$197/Mes" },
+    { item: "Comunidad de Aprendizaje Virtual y Local + Herramientas de IA y Blockchain", value: "$4,000/Mes" },
     { item: "Sistema de Ganancias con IA (Negocio Listo)", value: "$5,000" },
-    { item: "Software Convertwave", value: "$97/Mes" },
-    { item: "Software Remixer", value: "$97/Mes" },
-    { item: "Comunidad Privada de Capacitación", value: "$297/Mes" },
-    { item: "3+ Clases de Capacitación en Vivo Semanales", value: "$497/Mes" },
-    { item: "Llamada Individual de Incorporación", value: "$97" },
-    { item: "Plantillas de Propuestas y Ventas", value: "$394" },
-    { item: "Programa de Sistemas Avanzados de IA", value: "$997" },
+    { item: "Software Propietario Para ventas, sistemas y marketing.", value: "$2,000/Mes" },
+    { item: "Comunidad Privada de Capacitación", value: "$6,000/Mes" },
+    { item: "Sesión de bienvenida y onboarding", value: "$4,000 /Mes" },
+    { item: "Sistema de ganancias con IA", value: "$9,700" },
+    { item: "Workshops presenciales  y virtuales semanales", value: "$4,000" },
+    { item: "Agencia de Automatización", value: "$9,700" },
+    { item: "Invitación a eventos SurfersVIP.", value: "priceless" },
 ];
 
 const WhatYouGet: React.FC = () => {
@@ -120,19 +119,16 @@ const WhatYouGet: React.FC = () => {
                 <div>
                     <h3 className="text-3xl font-bold text-center mb-12 section-reveal">El Valor Real del Paquete: <span className="gradient-text">Lo que Ganas</span></h3>
                     <div className="glass rounded-3xl p-8 md:p-12 max-w-4xl mx-auto section-reveal">
-                        <ul className="grid md:grid-cols-2 gap-x-12 gap-y-4">
+                        <ul className="grid grid-cols-1 gap-y-4">
                             {valuePackage.map((item, index) => (
                                 <li key={index} className="flex justify-between border-b border-gray-300 py-3">
                                     <span className="font-medium">{item.item}</span>
-                                    <span className="font-bold gradient-text">{item.value} USD</span>
+                                    <span className="font-bold gradient-text">{item.value}</span>
                                 </li>
                             ))}
-                             <li className="col-span-2 text-center pt-6">
-                                <p className="text-lg">Programa de Afiliados del Acelerador de Ganancias AI Surfer (<span className="font-bold">Ganancias Ilimitadas</span>)</p>
-                             </li>
                         </ul>
                         <div className="mt-12 text-center border-t border-white/10 pt-8">
-                            <p className="text-xl text-gray-400">Oferta De la Comunidad Technology Surfers <span className="font-bold text-white line-through">$7,673 USD</span> en valor.</p>
+                            <p className="text-xl text-gray-400">Oferta De la Comunidad Technology Surfers <span className="font-bold text-white line-through">$7,673 MXN</span> en valor.</p>
                             <h4 className="text-3xl md:text-4xl font-bold mt-4">
                                 Obtén Acceso Completo Hoy Por <span className="gradient-text">Una Fracción Del Costo</span>
                             </h4>
