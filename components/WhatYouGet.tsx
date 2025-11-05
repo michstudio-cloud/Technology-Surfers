@@ -53,10 +53,10 @@ const toolCategories = [
 ];
 
 const membershipIncludes = [
-    { title: "PORTAL DE CAPACITACIÓN", description: "Ingresa a nuestro portal con currículos de capacitación y repeticiones de clases en vivo." },
-    { title: "COMUNIDAD PRIVADA EN LÍNEA", description: "Surfea la ola de la IA con una comunidad de apoyo que te inspirará y motivará." },
-    { title: "CLASES EN VIVO", description: "Experimenta nuestras clases en vivo semanales con los principales expertos en IA del mundo." },
-    { title: "SOFTWARE CONVERTWAVE Y REMIXER", description: "Tu membresía incluye nuestro software todo en uno para gestionar tu negocio con IA." }
+    { title: "Portal y Oficinas de Capacitación", description: "Ingresa a nuestro portal con currículos de capacitación y repeticiones de clases en vivo." },
+    { title: "WORKSHOPS y Masterminds en VIVO", description: "Surfea la ola de la IA con una comunidad de apoyo que te inspirará y motivará." },
+    { title: "Comunidad Virtual y Local", description: "Experimenta nuestras clases en vivo semanales con los principales expertos en IA del mundo." },
+    { title: "Software Propietario", description: "Tu membresía incluye nuestro software todo en uno para gestionar tu negocio con IA." }
 ];
 
 const valuePackage = [
@@ -77,7 +77,7 @@ const WhatYouGet: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Todo lo que Obtienes: <span className="gradient-text">Tu Pasaporte a la Tribu del Flujo</span>
+                        Todo lo que Obtienes: <span className="gradient-text">Tu Pasaporte a la tribu surfer de la tecnología</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto">
                         Todo lo que necesitas para tu viaje, en un solo lugar.
@@ -85,7 +85,7 @@ const WhatYouGet: React.FC = () => {
                 </div>
                 
                 <div className="mb-24 section-reveal">
-                    <h3 className="text-3xl font-bold text-center mb-12">Herramientas de IA Incluidas en Tu Plan</h3>
+                    <h3 className="text-3xl font-bold text-center mb-12">Herramientas de IA incluidas en tu plan y mucho más…</h3>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                         {toolCategories.map((category, index) => (
                             <div key={index} className="glass p-8 rounded-3xl shadow-lg hover-lift">
@@ -132,7 +132,7 @@ const WhatYouGet: React.FC = () => {
                              </li>
                         </ul>
                         <div className="mt-12 text-center border-t border-white/10 pt-8">
-                            <p className="text-xl text-gray-400">Valor total que recibes: <span className="font-bold text-white line-through">$7,673 USD</span> en valor.</p>
+                            <p className="text-xl text-gray-400">Oferta De la Comunidad Technology Surfers <span className="font-bold text-white line-through">$7,673 USD</span> en valor.</p>
                             <h4 className="text-3xl md:text-4xl font-bold mt-4">
                                 Obtén Acceso Completo Hoy Por <span className="gradient-text">Una Fracción Del Costo</span>
                             </h4>
