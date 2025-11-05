@@ -16,7 +16,7 @@ const Testimonials: React.FC = () => {
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
                         Lo que Dicen Nuestros Miembros: <span className="gradient-text">Voces de la Tribu</span>
                     </h2>
-                    <p className="text-xl mb-12 max-w-2xl mx-auto">¿TE PREGUNTAS SI EL SISTEMA DE GANANCIAS CON IA FUNCIONARÁ PARA TI Y TUS FUTUROS CLIENTES?</p>
+                    <p className="text-xl mb-12 max-w-2xl mx-auto">¿TE PREGUNTAS SI LA METODOLOGÍA 90/10 FUNCIONA PARA TU NEGOCIO Y TUS CLIENTES?</p>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8">
@@ -39,7 +39,7 @@ const Testimonials: React.FC = () => {
                     ))}
                 </div>
                 <div className="text-center mt-12 section-reveal">
-                    <p className="text-2xl font-bold">Tú estableces tu precio. <span className="gradient-text">Conserva el 100% de la ganancia.</span></p>
+                    <p className="text-2xl font-bold">Únete a la Tribu de <span className="gradient-text">Surfers de la Tecnología.</span></p>
                 </div>
             </div>
         </section>
