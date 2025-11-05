@@ -1,10 +1,11 @@
 
+
 import React from 'react';
 
 const testimonials = [
     { name: "Just Grow Podcast", avatarName: "JGP", text: "Como puedes escuchar, esto FUNCIONA. Comienza tu prueba gratuita para comenzar a revender este sistema...", bgColor: "F16131" },
     { name: "Home Service Accelerator", avatarName: "HSA", text: "Úsalo para ti mismo. Tú estableces tu precio. Conserva el 100% de la ganancia.", bgColor: "FF8C42" },
-    { name: "Book Publishing Academy", avatarName: "BPA", text: "El sistema de ganancias con IA es una revelación. Nos ha permitido automatizar y escalar como nunca antes.", bgColor: "F16131" },
+    { name: "Book Publishing Academy", avatarName: "BPA", text: "El sistema de ganancias con IA + Blockchain es una revelación. Nos ha permitido automatizar y escalar como nunca antes.", bgColor: "F16131" },
     { name: "AZE & Community Launch", avatarName: "AZE", text: "Increíble. La comunidad y las herramientas son de primer nivel. Altamente recomendado.", bgColor: "FF8C42" },
 ];
 

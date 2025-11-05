@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 const Stats: React.FC = () => {
@@ -7,7 +8,7 @@ const Stats: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16 section-reveal">
                      <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Resultados Comprobados con IA: <span className="gradient-text">Números Que Hacen Olas</span>
+                        Resultados Comprobados con IA + Blockchain: <span className="gradient-text">Números Que Hacen Olas</span>
                     </h2>
                     <p className="text-xl text-gray-400 max-w-3xl mx-auto">
                         Estos no son solo nuestros números. Somos parte de una comunidad de élite que valida y respalda cada uno de estos logros.

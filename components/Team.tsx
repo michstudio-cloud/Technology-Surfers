@@ -1,16 +1,17 @@
 
+
 import React from 'react';
 
 const teamMembers = [
     {
         name: "DALLAS CLOUNCH",
-        role: "INSTRUCTOR PRINCIPAL DE SURF DE IA • Fundador de The AI Surfer",
-        bio: "De novato en codificación a los 21 a CEO de una próspera empresa de software a los 23, Dallas ha hecho crecer 'The AI Surfer' de 0 a más de 1,000,000+ seguidores aprovechando el poder de la IA, y está dedicado a mostrar el proceso exacto para que cualquiera pueda usar IA para construir un negocio exitoso.",
+        role: "INSTRUCTOR PRINCIPAL DE SURF DE IA + Blockchain • Fundador de The AI Surfer",
+        bio: "De novato en codificación a los 21 a CEO de una próspera empresa de software a los 23, Dallas ha hecho crecer 'The AI Surfer' de 0 a más de 1,000,000+ seguidores aprovechando el poder de la IA + Blockchain, y está dedicado a mostrar el proceso exacto para que cualquiera pueda usar IA + Blockchain para construir un negocio exitoso.",
         avatarName: "Dallas+Clounch",
     },
     {
         name: "MATT PROUD",
-        role: "ESTRATEGA EJECUTIVO DE SURF • Cofundador de The AI Surfer",
+        role: "ESTRATEGA EJECUTIVO DE SURF",
         bio: "Ganador del muy codiciado Premio Saaspreneur 6 veces, Matt se ha establecido como uno de los principales desarrolladores de negocios tecnológicos del mundo. Con 15 años de experiencia, es un maestro en crear modelos de negocio eficientes y altamente apalancados.",
         avatarName: "Matt+Proud",
     }
@@ -22,7 +23,7 @@ const Team: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Conoce a los Fundadores: <br/>Tus <span className="gradient-text">Guías en el Mundo de la IA</span>
+                        Conoce a los Fundadores: <br/>Tus <span className="gradient-text">Guías en el Mundo de la IA + Blockchain</span>
                     </h2>
                 </div>
                 

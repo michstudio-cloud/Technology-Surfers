@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 const CTA: React.FC = () => {
@@ -10,7 +11,7 @@ const CTA: React.FC = () => {
             
             <div className="max-w-5xl mx-auto relative z-10 text-center section-reveal">
                 <h2 className="text-4xl md:text-6xl font-bold mb-12 text-shadow">
-                    Comienza a Construir tu Futuro con IA<br/>
+                    Comienza a Construir tu Futuro con IA + Blockchain<br/>
                     <span className="gradient-text">Únete al Flujo 90/10 Hoy Mismo</span>
                 </h2>
                 

@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 const opportunities = [
@@ -8,11 +9,11 @@ const opportunities = [
     },
     {
         title: "#2. Tarifas de Configuración o Creación",
-        description: "Cobra de $500 a $15,000 por ayudar a una empresa a configurar herramientas de IA en su negocio."
+        description: "Cobra de $500 a $15,000 por ayudar a una empresa a configurar herramientas de IA + Blockchain en su negocio."
     },
     {
         title: "#3. Iguala Mensual",
-        description: "Gestiona estas herramientas de IA de forma continua para un negocio y cobra de $500 a $5,000 al mes."
+        description: "Gestiona estas herramientas de IA + Blockchain de forma continua para un negocio y cobra de $500 a $5,000 al mes."
     },
     {
         title: "#4. Consultoría",
@@ -20,11 +21,11 @@ const opportunities = [
     },
     {
         title: "#5. Participación en los Beneficios",
-        description: "Proporciona IA a una empresa y acuerda recibir entre el 5% y el 35% de todas las ventas generadas por lo que construiste."
+        description: "Proporciona IA + Blockchain a una empresa y acuerda recibir entre el 5% y el 35% de todas las ventas generadas por lo que construiste."
     },
     {
         title: "#6. Participación Accionaria (Equity)",
-        description: "Obtén participación parcial en una empresa por configurar y gestionar un sistema impulsado por IA para ellos."
+        description: "Obtén participación parcial en una empresa por configurar y gestionar un sistema impulsado por IA + Blockchain para ellos."
     },
 ];
 

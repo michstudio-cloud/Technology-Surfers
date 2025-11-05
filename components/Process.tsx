@@ -1,13 +1,14 @@
 
+
 import React from 'react';
 
 const Process: React.FC = () => {
     const steps = [
-        "Aprovechar la IA como constructor de visión para definir la dirección y las metas de un negocio.",
-        "Identificar puntos débiles en un negocio que la IA puede asumir.",
-        "Instalar soluciones simples de IA en las brechas que has descubierto.",
-        "Desplegar IA en marketing y procesos operacionales para comenzar a escalar.",
-        "Aprovechar reportes continuos de IA y retroalimentación para mantenerse al día."
+        "Aprovechar la IA + Blockchain como constructor de visión para definir la dirección y las metas de un negocio.",
+        "Identificar puntos débiles en un negocio que la IA + Blockchain puede asumir.",
+        "Instalar soluciones simples de IA + Blockchain en las brechas que has descubierto.",
+        "Desplegar IA + Blockchain en marketing y procesos operacionales para comenzar a escalar.",
+        "Aprovechar reportes continuos de IA + Blockchain y retroalimentación para mantenerse al día."
     ];
 
     return (
@@ -18,7 +19,7 @@ const Process: React.FC = () => {
                         La metodología 90/10: <span className="gradient-text">Surfeando la Ola Tecnológica de IA y Blockchain.</span>
                     </h2>
                     <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-                        El éxito no es luchar contra la marea, es entender el océano y usar su energía. Te guiamos para que la IA se convierta en tu mejor tabla.
+                        El éxito no es luchar contra la marea, es entender el océano y usar su energía. Te guiamos para que la IA + Blockchain se convierta en tu mejor tabla.
                     </p>
                 </div>
                 

@@ -1,52 +1,53 @@
+
 import React from 'react';
 
 const toolCategories = [
     {
-        title: "IA DE CONTENIDO SOCIAL",
+        title: "IA + BLOCKCHAIN DE CONTENIDO SOCIAL",
         features: [
-            "Clasificador de Contenido Viral con IA",
-            "Transcriptor de Video con IA",
-            "Remezclador de Guiones con IA"
+            "Clasificador de Contenido Viral con IA + Blockchain",
+            "Transcriptor de Video con IA + Blockchain",
+            "Remezclador de Guiones con IA + Blockchain"
         ]
     },
     {
-        title: "AUTOMATIZACIÓN CON IA",
+        title: "AUTOMATIZACIÓN CON IA + BLOCKCHAIN",
         features: [
-            "Aplicaciones de Tareas con IA",
-            "Organizador de Prospectos con IA",
-            "Calificador de Prospectos con IA"
+            "Aplicaciones de Tareas con IA + Blockchain",
+            "Organizador de Prospectos con IA + Blockchain",
+            "Calificador de Prospectos con IA + Blockchain"
         ]
     },
     {
-        title: "COMUNICACIÓN CON IA",
+        title: "COMUNICACIÓN CON IA + BLOCKCHAIN",
         features: [
-            "IA de Voz",
-            "Bots de IA para DM de Redes Sociales",
-            "Bots de IA para SMS/Email"
+            "IA + Blockchain de Voz",
+            "Bots de IA + Blockchain para DM de Redes Sociales",
+            "Bots de IA + Blockchain para SMS/Email"
         ]
     },
     {
-        title: "IA PARA SITIOS WEB",
+        title: "IA + BLOCKCHAIN PARA SITIOS WEB",
         features: [
-            "Constructor Automático de Embudos con IA",
-            "Generador de Imágenes Web con IA",
-            "Redactor Publicitario con IA"
+            "Constructor Automático de Embudos con IA + Blockchain",
+            "Generador de Imágenes Web con IA + Blockchain",
+            "Redactor Publicitario con IA + Blockchain"
         ]
     },
     {
-        title: "IA PARA RESEÑAS",
+        title: "IA + BLOCKCHAIN PARA RESEÑAS",
         features: [
-            "Respondedor de Reseñas con IA",
-            "Clasificador de Reseñas con IA",
-            "Gestión de Reseñas con IA"
+            "Respondedor de Reseñas con IA + Blockchain",
+            "Clasificador de Reseñas con IA + Blockchain",
+            "Gestión de Reseñas con IA + Blockchain"
         ]
     },
     {
-        title: "AGENTES DE IA",
+        title: "AGENTES DE IA + BLOCKCHAIN",
         features: [
             "Agentes Ilimitados",
             "Gestión de Tareas",
-            "Operaciones con IA"
+            "Operaciones con IA + Blockchain"
         ]
     }
 ];
@@ -59,14 +60,14 @@ const membershipIncludes = [
 ];
 
 const valuePackage = [
-    { item: "Comunidad de Aprendizaje Virtual y Local + Herramientas de IA y Blockchain", value: "$4,000/Mes" },
-    { item: "Sistema de Ganancias con IA (Negocio Listo)", value: "$5,000" },
-    { item: "Software Propietario Para ventas, sistemas y marketing.", value: "$2,000/Mes" },
-    { item: "Comunidad Privada de Capacitación", value: "$6,000/Mes" },
-    { item: "Sesión de bienvenida y onboarding", value: "$4,000 /Mes" },
-    { item: "Sistema de ganancias con IA", value: "$9,700" },
-    { item: "Workshops presenciales  y virtuales semanales", value: "$4,000" },
-    { item: "Agencia de Automatización", value: "$9,700" },
+    { item: "Comunidad de Aprendizaje Virtual y Local + Herramientas de IA y Blockchain", value: "$4,000 MXN / Mes" },
+    { item: "Sistema de Ganancias con IA + Blockchain (Negocio Listo)", value: "$5,000 MXN" },
+    { item: "Software Propietario Para ventas, sistemas y marketing.", value: "$2,000 MXN / Mes" },
+    { item: "Comunidad Privada de Capacitación", value: "$6,000 MXN / Mes" },
+    { item: "Sesión de bienvenida y onboarding", value: "$4,000 MXN / Mes" },
+    { item: "Sistema de ganancias con IA + Blockchain", value: "$9,700 MXN" },
+    { item: "Workshops presenciales  y virtuales semanales", value: "$4,000 MXN" },
+    { item: "Agencia de Automatización", value: "$9,700 MXN" },
     { item: "Invitación a eventos SurfersVIP.", value: "priceless" },
 ];
 
@@ -84,7 +85,7 @@ const WhatYouGet: React.FC = () => {
                 </div>
                 
                 <div className="mb-24 section-reveal">
-                    <h3 className="text-3xl font-bold text-center mb-12">Herramientas de IA incluidas en tu plan y mucho más…</h3>
+                    <h3 className="text-3xl font-bold text-center mb-12">Herramientas de IA + Blockchain incluidas en tu plan y mucho más…</h3>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                         {toolCategories.map((category, index) => (
                             <div key={index} className="glass p-8 rounded-3xl shadow-lg hover-lift">

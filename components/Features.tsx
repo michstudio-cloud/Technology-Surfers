@@ -7,27 +7,27 @@ const Features: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Los Desafíos de Implementar IA: <span className="gradient-text">Evita la Revolcada</span>
+                        Los Desafíos de Implementar IA + Blockchain: <span className="gradient-text">Evita la Revolcada</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto">
-                        Sabemos lo emocionante que suena la IA, pero seamos honestos, aprovecharla puede sentirse como una tarea imposible.
+                        Sabemos lo emocionante que suena la IA + Blockchain, pero seamos honestos, aprovecharla puede sentirse como una tarea imposible.
                     </p>
                 </div>
                 
                 <div className="grid md:grid-cols-3 gap-8 mb-24">
                     <div className="glass p-8 rounded-3xl hover-lift section-reveal">
                         <h3 className="text-2xl font-bold mb-4">¿No eres Tecnológico?</h3>
-                        <p>La IA se siente complicada y confusa, con muchos términos técnicos. Necesitas un experto que simplifique la IA para que puedas entenderla rápidamente.</p>
+                        <p>La IA + Blockchain se siente complicada y confusa, con muchos términos técnicos. Necesitas un experto que simplifique la IA + Blockchain para que puedas entenderla rápidamente.</p>
                     </div>
                     
                     <div className="glass p-8 rounded-3xl hover-lift section-reveal" style={{ transitionDelay: '0.2s' }}>
                         <h3 className="text-2xl font-bold mb-4">No tienes tiempo libre</h3>
-                        <p>Tus días ya están llenos. Necesitas que alguien haga que sea fácil implementar IA en horas en lugar de días o semanas.</p>
+                        <p>Tus días ya están llenos. Necesitas que alguien haga que sea fácil implementar IA + Blockchain en horas en lugar de días o semanas.</p>
                     </div>
                     
                     <div className="glass p-8 rounded-3xl hover-lift section-reveal" style={{ transitionDelay: '0.4s' }}>
                         <h3 className="text-2xl font-bold mb-4">Demasiadas Herramientas</h3>
-                        <p>Hay demasiadas herramientas de IA ahí fuera. Necesitas ayuda para saber cuáles realmente valen la pena usar sin perder tiempo investigando.</p>
+                        <p>Hay demasiadas herramientas de IA + Blockchain ahí fuera. Necesitas ayuda para saber cuáles realmente valen la pena usar sin perder tiempo investigando.</p>
                     </div>
                 </div>
 
@@ -63,13 +63,13 @@ const Features: React.FC = () => {
                             </div>
                             <div>
                                 <h4 className="font-bold text-xl mb-1">Todo en la misma Comunidad</h4>
-                                <p>No más confusión. Te proporcionamos tu negocio prediseñado y herramientas de IA en un solo lugar y con una sola comunidad. Simplemente conecta, configura y duplica.</p>
+                                <p>No más confusión. Te proporcionamos tu negocio prediseñado y herramientas de IA + Blockchain en un solo lugar y con una sola comunidad. Simplemente conecta, configura y duplica.</p>
                             </div>
                         </div>
                     </div>
                     <div className="mt-16">
                         <a href="#precios" className="gradient-bg px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition inline-block">
-                            Obtén Tu Sistema de IA
+                            Obtén Tu Sistema de IA + Blockchain
                         </a>
                     </div>
                 </div>

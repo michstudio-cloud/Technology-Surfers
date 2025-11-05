@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 const Community: React.FC = () => {
@@ -7,10 +8,10 @@ const Community: React.FC = () => {
             <div className="max-w-5xl mx-auto text-center">
                 <div className="section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Únete a la Comunidad de IA: <span className="gradient-text">Tu Red es tu Mayor Activo</span>
+                        Únete a la Comunidad de IA + Blockchain: <span className="gradient-text">Tu Red es tu Mayor Activo</span>
                     </h2>
                     <p className="text-xl max-w-3xl mx-auto mb-12">
-                        ¡Rodéate de los expertos líderes en IA del mundo que están vendiendo IA mientras se mantienen adelante de la competencia y comparten todos sus secretos contigo!
+                        ¡Rodéate de los expertos líderes en IA + Blockchain del mundo que están vendiendo IA + Blockchain mientras se mantienen adelante de la competencia y comparten todos sus secretos contigo!
                     </p>
                 </div>
                 <div className="glass p-12 rounded-3xl section-reveal">
@@ -18,7 +19,7 @@ const Community: React.FC = () => {
                         <span className="gradient-text">NO DEJES QUE TUS COMPETIDORES SE ADELANTEN</span>
                     </h3>
                     <p className="text-xl max-w-4xl mx-auto">
-                        La IA no es ningún secreto. Todos saben sobre ella. Lo único que impide a tus competidores usarla es su falta de experiencia. Aprovecha esto ahora.
+                        La IA + Blockchain no es ningún secreto. Todos saben sobre ella. Lo único que impide a tus competidores usarla es su falta de experiencia. Aprovecha esto ahora.
                     </p>
                 </div>
                  <div className="mt-16 text-center section-reveal">

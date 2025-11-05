@@ -1,35 +1,36 @@
 
+
 import React from 'react';
 
 const withUs = [
-    "Aprender cómo aprovechar y monetizar las últimas herramientas de IA.",
-    "Vender IA más rápido mientras ahorras más tiempo.",
-    "Mantenerte actualizado con las últimas tendencias en IA.",
-    "Volverte 10x más productivo y eficiente."
+    "Aprender cómo aprovechar y monetizar las últimas herramientas de IA y blockchain.",
+    "Vender tu producto y servir más rápido mientras ahorras más tiempo en la operación.",
+    "Mantenerte actualizado con las últimas tendencias en IA y blockchain, y comunidad sólida.",
+    "Volverte 10x más productivo y eficiente con la metodología 90/10."
 ];
 
 const withoutUs = [
     "Hacer todo de la misma manera antigua.",
-    "Dejar que otros se beneficien de la IA mientras tú te lo pierdes.",
+    "Dejar que otros se beneficien de la IA + Blockchain mientras tú te lo pierdes.",
     "Perder tiempo en tareas manuales y repetitivas.",
     "Ver cómo tus competidores se adelantan."
 ];
 
 const whyJoinWithUs = [
-    "Ser parte del 1% superior de empresas que usan IA.",
-    "Descubrir la forma rápida y fácil de escalar con IA.",
+    "Ser parte del 1% superior de empresas que usan IA + Blockchain.",
+    "Descubrir la forma rápida y fácil de escalar con IA + Blockchain.",
     "Disparar tus ganancias mientras ahorras más tiempo.",
-    "Mantenerte adelante de tu competencia aplicando IA antes que ellos.",
-    "Obtener acceso exclusivo a los principales propietarios de empresas de IA.",
+    "Mantenerte adelante de tu competencia aplicando IA + Blockchain antes que ellos.",
+    "Obtener acceso exclusivo a los principales propietarios de empresas de IA + Blockchain.",
     "Conectar con otros dueños de negocios que son parte de la familia 90/10."
 ];
 
 const whyJoinWithoutUs = [
     "Permanecer en el mismo lugar en el que estás actualmente.",
-    "Intentar navegar la IA por tu cuenta, abrumado y perdido.",
-    "Perderte conexiones clave con los principales líderes de IA.",
+    "Intentar navegar la IA + Blockchain por tu cuenta, abrumado y perdido.",
+    "Perderte conexiones clave con los principales líderes de IA + Blockchain.",
     "Hacer las cosas de la misma manera antigua.",
-    "Ver cómo tus competidores usan IA más rápido que tú.",
+    "Ver cómo tus competidores usan IA + Blockchain más rápido que tú.",
     "Perderte una ola de oportunidad única en la vida."
 ];
 
@@ -39,13 +40,13 @@ const Advantages: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        Tu Negocio con IA vs. Sin IA: <span className="gradient-text">Una Decisión Clara</span>
+                        Tu Negocio con IA + Blockchain vs. Sin IA + Blockchain: <span className="gradient-text">Una Decisión Clara</span>
                     </h2>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-12 mb-24">
                     <div className="glass p-10 rounded-3xl section-reveal">
-                        <h3 className="text-3xl font-bold mb-6 gradient-text">CON NOSOTROS:</h3>
+                        <h3 className="text-3xl font-bold mb-6 gradient-text">CON TECHNOLOGY SURFERS:</h3>
                         <ul className="space-y-4 text-gray-300">
                             {withUs.map((item, index) => (
                                 <li key={index} className="flex items-start">
@@ -75,7 +76,7 @@ const Advantages: React.FC = () => {
 
                 <div className="text-center mb-20 section-reveal">
                     <h2 className="text-4xl md:text-6xl font-bold mb-6">
-                        ¿Por Qué Unirte a Nuestra Tribu? <br/>El <span className="gradient-text">Compromiso con tu Flujo</span>
+                        ¿Por Qué Unirte a Nuestra Tribu? <br/>El <span className="gradient-text">Compromiso con tu Ola</span>
                     </h2>
                 </div>
 

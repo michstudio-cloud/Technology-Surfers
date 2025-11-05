@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Logo from './Logo';
 
@@ -19,7 +20,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h4 className="font-bold mb-4">PRODUCTO</h4>
                         <ul className="space-y-2 text-gray-400 text-sm">
-                            <li><a href="#oferta" className="transition">Herramientas IA</a></li>
+                            <li><a href="#oferta" className="transition">Herramientas IA + Blockchain</a></li>
                             <li><a href="#sistema" className="transition">Sistema 90/10</a></li>
                             <li><a href="#precios" className="transition">Precios</a></li>
                             <li><a href="#" className="transition">Convertwave</a></li>
