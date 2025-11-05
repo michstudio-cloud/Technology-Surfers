@@ -9,19 +9,18 @@ const Hero: React.FC = () => {
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 text-center">
                 <div className="mb-6 inline-block">
                     <span className="glass px-4 py-2 rounded-full text-sm font-semibold" style={{ color: '#F16131' }}>
-                       flow 90/10
+                       Technology Surfers — 90/10 Flow
                     </span>
                 </div>
                 
-                <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-shadow leading-tight">
-                    Delega el <span className="gradient-text">90% a la IA</span><br/>
-                    Usa el 10% en tu<br/>
-                    <span className="text-gray-300">POTENCIAL CREATIVO</span>
+                <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+                    Delega el <span className="gradient-text">90% Tecnología</span><br/>
+                   10% Humano<br/>
+                    <span className="text-gray-300">100% Haciendo lo que Amas</span>
                 </h1>
                 
                 <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-4xl mx-auto">
-                    Surfea la ola de la IA permitiendo que la IA se haga cargo del 90% del negocio que te agota... para que puedas enfocarte 100% en lo que amas.<br/>
-                    Esto es 90/10... Un método, una comunidad y nuestro camino hacia la libertad.
+                    Surfea la ola tecnológica permitiendo que la Tecnología se haga cargo del 90% del negocio que te agota… para que puedas enfocarte en el 10% que realmente amas y así vivir al 100%. Esto es 90/10, una comunidad que encuentra su propósito y construye la libertad.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
